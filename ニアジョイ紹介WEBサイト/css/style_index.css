@@ -1,0 +1,80 @@
+@charset "UTF-8";
+html{
+    font-size:100%;
+}
+body{
+    font-family:"Hiragino Kaku  Gothic ProN","Hiragino Sans","BIZ UDPGothic",sans-serif;
+    line-height:1.7;
+    color:#000;
+    background-color:#eff542;
+}
+.font-english{
+    font-family: "SN Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+/* .header{
+    display:flex;
+    justify-content:space-between;
+} */
+.header h1{
+    margin-left:1rem;
+    text-align:left;
+    font-size:5rem;
+}
+.header h2{
+    text-align:center;
+    font-size:5rem;
+}
+.wrapper{
+    width:100%;
+    max-width:900px;
+    margin:1rem auto 0;
+}
+.main{
+    margin-top:5rem;
+}
+.section1{
+    display:grid;
+    gap:2rem;
+    grid-template-columns:repeat(3,1fr);
+}
+.item img{
+    aspect-ratio:1/1;
+    object-fit:cover;
+    width:18vw;
+    border-radius:15px;
+    transition:border-radius 0.5s;
+}
+.center{
+    text-align:center;
+}
+.item img:hover{
+    border-radius:150px;
+}
+.font-medium{
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+.btn{
+    display:flex;
+    flex-direction:column;
+    align-content:flex-start;
+    color:#000;
+    background-color:aqua;
+    margin:0.5rem;
+    padding:0.25rem;
+    border-radius:8px;
+    font-size:1.25rem;
+    text-decoration:none;
+    transition:color;
+
+}
+.btn:hover{
+    color:yellow;
+}
+.main{
+    display:flex;
+    gap:4rem;
+}
